@@ -1,12 +1,14 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 
 class ApiService {
-  static const String _apiKey = "sk-8c291c7bdce6458197b2a91c654822bb";
+  static final _apiKey = dotenv.env['DEEPSEEK_API_KEY'];
   static const String _apiUrl = "https://api.deepseek.com/chat/completions";
   static const Duration _timeout = Duration(seconds: 40);
+  
 
   Future<Map<String, String>> generateExercise({
     required String subject,

@@ -23,7 +23,6 @@ class _SelectTopicScreenState extends State<SelectTopicScreen> {
     final currentSubject = provider.subject;
 
     // 2. Get the list of topics for this subject
-    // If subject is null or not found, return empty list to avoid crash
     final List<String> availableTopics =
         AppConstants.topicData[currentSubject] ?? [];
 

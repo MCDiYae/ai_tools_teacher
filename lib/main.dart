@@ -1,11 +1,14 @@
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 import '../provider/exercise_provider.dart';
 import '../utils/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'utils/router.dart';
 
-void main() {
+Future main() async{
+  await dotenv.load(fileName: ".env");
   runApp(
     MultiProvider(
       providers: [
