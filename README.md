@@ -43,5 +43,5 @@ The following workflow illustrates the seamless process of generating content fo
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/AI-Teacher-Helper.git](https://github.com/YOUR_USERNAME/AI-Teacher-Helper.git)
+git clone https://github.com/MCDiYae/ai_tools_teacher.git
 cd AI-Teacher-Helper
