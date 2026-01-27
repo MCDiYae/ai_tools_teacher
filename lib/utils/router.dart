@@ -2,6 +2,7 @@
 import 'package:go_router/go_router.dart';
 import '../screens/exercice_result_screen.dart';
 import '../screens/home_screen.dart';
+import '../screens/scan_screen.dart';
 import '../screens/select_grade_screen.dart';
 import '../screens/select_subject_screen.dart';
 import '../screens/select_topic_screen.dart';
@@ -29,6 +30,10 @@ final router = GoRouter(
     GoRoute(
       path: '/select-topic',
       builder: (context, state) => const SelectTopicScreen(),
+    ),
+    GoRoute(
+      path: '/scan-screen', 
+      builder: (context, state) => const ScanScreen(),
     ),
     GoRoute(
   path: '/exercise-result',

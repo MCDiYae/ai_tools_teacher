@@ -5,6 +5,7 @@ import '../provider/exercise_provider.dart';
 import '../utils/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'provider/scan_provider.dart';
 import 'utils/router.dart';
 
 Future main() async{
@@ -13,6 +14,7 @@ Future main() async{
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => ExerciseProvider()),
+        ChangeNotifierProvider(create: (_) => ScanProvider()),
       ],
       child: const MyApp(),
     ),

@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../provider/exercise_provider.dart';
 import '../utils/app_constants.dart';
-import '../widgets/selectionCard.dart';
+import '../widgets/selection_card.dart';
 import '../services/api_service.dart';
 
 class SelectTopicScreen extends StatefulWidget {

@@ -71,6 +71,15 @@ class HomeScreen extends StatelessWidget {
             ),
 
             const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+               context.push('/scan-screen');
+              },
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(double.infinity, 60),
+              ),
+              child: const Text('Scan & Solve'),
+            ),
           ],
         ),
       ),
