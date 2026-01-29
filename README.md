@@ -3,8 +3,9 @@
 **AI Teacher Helper** is a Flutter-based mobile application designed to assist educators in generating high-quality academic content instantly. Powered by the **DeepSeek AI API**, the app can create both quick classroom exercises and formal, structured examination papers across various subjects and grade levels.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bbfdf033-ef14-454b-b3ce-33f049229d94" alt="App Workflow" width="100%">
+  <img src="https://github.com/user-attachments/assets/3202fad0-279e-46f0-8aa9-2ab867c731cf" alt="App Workflow" width="100%">
 </p>
+
 
 ---
 
